@@ -1,0 +1,22 @@
+{
+  "name": "reqres-api-automation",
+  "version": "1.0.0",
+  "description": "API Automation Test with framework, SuperTest, Mocha, Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=mochawesome-report-$(date +%Y-%m-%d_%H-%M-%S)"
+  },
+  "keywords": [],
+  "author": "NVK PAVANKUMAR",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
